@@ -19,7 +19,7 @@ public class ArrayExceptionHandling {
 
         } catch (ArrayIndexOutOfBoundsException e1) {
             System.out.println("배열에 범위를 넘었어요!");
-        }catch (Exception e) {
+        } catch (Exception e) {
             System.out.println(e.getClass());
             // 예외가 발생 했다면 예외 처리를 만들어 줄 수 있다.
             // System.out.println("나의 예외 처리 : " + e.getMessage());

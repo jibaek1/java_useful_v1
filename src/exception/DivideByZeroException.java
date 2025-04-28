@@ -8,7 +8,7 @@ public class DivideByZeroException extends Exception {
     public String message;
 
 
-    public  DivideByZeroException(String message){
+    public DivideByZeroException(String message) {
         super(message);
         this.message = message;
     }
