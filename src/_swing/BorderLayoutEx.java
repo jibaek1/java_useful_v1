@@ -27,7 +27,7 @@ public class BorderLayoutEx extends JFrame {
         buttons = new JButton[5];
         // for 문으로 수정 하시오
         for(int i = 0; i < 5; i ++) {
-            buttons[i] = new JButton("button1");
+            buttons[i] = new JButton("button1" + (i + 1));
         }
 
     }
