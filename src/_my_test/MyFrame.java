@@ -1,4 +1,4 @@
-package _swing;
+package _my_test;
 
 import javax.swing.*;
 
@@ -23,24 +23,23 @@ public class MyFrame extends JFrame {
         setSize(500,500);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
-        ImageIcon backgroundIcon = new ImageIcon("images/background.png");
-        ImageIcon playerIcon = new ImageIcon("images/player.png");
+        ImageIcon backgroundIcon = new ImageIcon("images/background(2).png");
+        ImageIcon playerIcon = new ImageIcon("images/player(2).png");
 
         // JLabel
         backgroundMap = new JLabel(backgroundIcon);
         // JLabel
         player = new JLabel(playerIcon);
 
-        backgroundMap.setSize(500 , 500);
-        backgroundMap.setLocation(0, 0);
+        backgroundMap.setSize(500,500);
+        backgroundMap.setLocation(0,0);
 
         player.setSize(100,100);
         player.setLocation(200,200);
-
     }
 
     private void setInitLayout() {
-        // 좌표 기반으로 셋팅이 됨(주의점 - 컴포넌트에 크기 지정, 콤포넌트에 x,y 지정)
+        //좌표 기반으로 셋팅이 됨(주의점 - 컴포넌트에 크기 지정, 컴포넌트 x,y 지정)
         setLayout(null);
 
         // 루트 패널에 붙이기
